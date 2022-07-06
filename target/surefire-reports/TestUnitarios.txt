@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestUnitarios
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.807 s <<< FAILURE! - in TestUnitarios
+TestUnitarios.TestEliminarEmpresaTestPorCompleto  Time elapsed: 0.644 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because the return value of "ModeloDatos.Conexion.Conectarse()" is null
+	at TestUnitarios.TestEliminarEmpresaTestPorCompleto(TestUnitarios.java:69)
+
+TestUnitarios.TestAñadirEmpresaYEscribirlaEnElFichero  Time elapsed: 0.043 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because the return value of "ModeloDatos.Conexion.Conectarse()" is null
+	at TestUnitarios.TestAñadirEmpresaYEscribirlaEnElFichero(TestUnitarios.java:25)
+
+TestUnitarios.TestLeerArchivoYLeerLaEmpresaTestIntroducida  Time elapsed: 0.049 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because the return value of "ModeloDatos.Conexion.Conectarse()" is null
+	at TestUnitarios.TestLeerArchivoYLeerLaEmpresaTestIntroducida(TestUnitarios.java:38)
+
+TestUnitarios.TestModificarUnaEmpresaYQueSeModifiqueEnElFichero  Time elapsed: 0.046 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because the return value of "ModeloDatos.Conexion.Conectarse()" is null
+	at TestUnitarios.TestModificarUnaEmpresaYQueSeModifiqueEnElFichero(TestUnitarios.java:53)
+
